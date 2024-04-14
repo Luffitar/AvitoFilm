@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">AvitoFilm</string>
+    <string name="error_text">Try again</string>
+    <string name="retry_button">Retry</string>
+    <string name="name_film_text_view">Name of the film</string>
+    <string name="name_of_the_film_year">Name of the film, year</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="country">Country</string>
+    <string name="genre">Genre</string>
+    <string name="description">Description</string>
+    <string name="rating">Рейтинг</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="sex">sex</string>
+    <string name="Back">Назад</string>
+    <string name="title">Title</string>
+    <string name="review">Review</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="actors">Актеры</string>
+    <string name="posters">Постеры</string>
+    <string name="reviews">Отзывы</string>
+    <string name="episodes_count">Всего серий</string>
+    <string name="seasons_series">Сезоны и серии</string>
+    <string name="filters">Filters</string>
+    <string name="choose_year">Выбери год</string>
+    <string name="choose_countries">Выбери страну</string>
+    <string name="age_rating">Выбери возрастное ограничение</string>
+    <string name="confirm">Применить</string>
+    <string name="year_hint">Выберите годы</string>
+    <string name="country_hint">Выберите страны</string>
+    <string name="age_hint">Выберите возрастное ограничение</string>
+
 </resources>

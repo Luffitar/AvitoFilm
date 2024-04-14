@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/filmsFragment">
+
+    <fragment
+        android:id="@+id/filmsFragment"
+        android:name="com.example.avitofilm.presentation.listFilms.FilmsFragment"
+        android:label="fragment_films"
+        tools:layout="@layout/fragment_films" >
+
+        <action
+            android:id="@+id/action_filmsFragment_to_detailsFilmFragment"
+            app:destination="@id/detailsFilmFragment" />
+        <action
+            android:id="@+id/action_filmsFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFilmFragment"
+        android:name="com.example.avitofilm.presentation.detailsFilms.DetailsFilmFragment"
+        android:label="fragment_details_film"
+        tools:layout="@layout/fragment_details_film">
+        <argument
+            android:name="film"
+            app:argType="com.example.avitofilm.data.model.FilmsData"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.avitofilm.presentation.filterFilms.FilterFragment"
+        android:label="fragment_filter_films"
+        tools:layout="@layout/fragment_filters" />
+</navigation>
