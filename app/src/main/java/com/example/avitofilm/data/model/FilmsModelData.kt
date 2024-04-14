@@ -30,6 +30,9 @@ data class FilmsData(
     @SerializedName("description")
     val description: String?,
 
+    @SerializedName("ageRating")
+    val ageRating: Int?,
+
     @SerializedName("poster")
     val poster: Posters,
 

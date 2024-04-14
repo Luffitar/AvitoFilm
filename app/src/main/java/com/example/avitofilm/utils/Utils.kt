@@ -6,7 +6,6 @@ import android.widget.ProgressBar
 import androidx.core.view.isVisible
 import coil.load
 import com.example.avitofilm.R
-import com.example.avitofilm.utils.Constants.DEFAULT_IMAGE
 
 fun ImageView.loadFilm(
     url: String?,

@@ -44,6 +44,8 @@ class FilmsAdapter(private val onClick: (item: FilmsData) -> Unit) :
                     val genres = item.genres.joinToString { it.name }
                     countryFilmTextView.text = countries
                     genreFilmTextView.text = genres
+                    ageRatingFilmTextView.text = "Возрастной рейтинг: " +
+                            "${item.ageRating?.toString() ?: NO_INFO}"
 
                 }
             }

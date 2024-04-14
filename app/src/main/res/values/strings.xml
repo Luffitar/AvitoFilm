@@ -31,5 +31,6 @@
     <string name="year_hint">Выберите годы</string>
     <string name="country_hint">Выберите страны</string>
     <string name="age_hint">Выберите возрастное ограничение</string>
+    <string name="age_rating_film">Возраст</string>
 
 </resources>
